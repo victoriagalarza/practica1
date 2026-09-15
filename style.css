@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #ffd9df;
+    font-family: Arial, sans-serif;
+}
+
+.info-panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px 20px;
+    border-radius: 12px;
+    max-width: 450px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.info-panel h2 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.info-panel p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #222;
+}
+
+.tooltip {
+    position: absolute;
+    background: #ffffff;
+    color: #000000;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    display: none;
+    transform: translate(-50%, -100%);
+    margin-top: -10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor 3D interactivo con Three.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="info-panel">
+        <h2>❤️ Visor 3D interactivo con Three.js</h2>
+        <p><b>Integrantes:</b> Victoria Angélica Galarza Pérez, Fernando José Alexander Cruz Castro.</p>
+        <p>Geometrías Básicas: Cubo, Esfera, Plano + Modelo 3D Local.</p>
+        <p>Use el mouse para rotar, acercar y alejar.</p>
+    </div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
